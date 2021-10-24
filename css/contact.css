@@ -1,0 +1,51 @@
+.box-text {
+    position: relative;
+    border: solid 2px #f0f0f0;
+}
+.box-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+span.locations {
+    font-size: 31px;
+    font-weight: bold;
+    color: #26abc8;
+}
+p.address {
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+p.bottom-fix {
+    height: 42px;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    margin-top: 0px;
+}
+.wpcf7-form button.btn.btn-large:hover {
+    background: #126ba2;
+    color: #fff;
+}
+.wpcf7-form button.btn.btn-large {
+    width: 100%;
+    background: #396B89;
+    margin-top: 11px;
+    color: white;
+    border: none;
+    height: 36px;
+    font-weight: bold;
+}
+.btn:hover {
+    background: #C2C2CC;
+    color: #126DA5;
+}
+@media (max-width: 747px){
+.box-center {
+    position: relative;
+    top: 0;
+    transform: translateY(0);
+    width: 100%;
+}
+}
